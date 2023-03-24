@@ -3956,8 +3956,7 @@ main {
                         position: relative;
                         display: flex;
                         flex-direction: column;
-                        justify-content:start;
-                        align-items: center;
+
                         &-img {
                             width: 100%;
                             height: 100px;
@@ -3998,11 +3997,9 @@ main {
                                 font-weight: 400;
                                 font-size: 14px;
                                 line-height: 16px;
-                                height: 100px;
-                                
+                                height: 120px;
                                 text-overflow: ellipsis;
                                 overflow: hidden;
-                                white-space: nowrap;
 
                                 p {
                                     text-align: start;
@@ -4093,11 +4090,7 @@ main {
                                 font-weight: 400;
                                 font-size: 14px;
                                 line-height: 16px;
-                                height: 100px;
-                                
-                                text-overflow: ellipsis;
-                                overflow: hidden;
-                                
+
                                 p {
                                     text-align: start;
                                     margin: 0;
@@ -4165,10 +4158,7 @@ main {
                                 font-weight: 400;
                                 font-size: 14px;
                                 line-height: 16px;
-                                height: 100px;
-                                
-                                text-overflow: ellipsis;
-                                overflow: hidden;
+
                                 p {
                                     text-align: start;
                                     margin: 0;
@@ -4235,10 +4225,7 @@ main {
                                 font-weight: 400;
                                 font-size: 14px;
                                 line-height: 16px;
-                                height: 100px;
-                                
-                                text-overflow: ellipsis;
-                                overflow: hidden;
+
                                 p {
                                     text-align: start;
                                     margin: 0;
