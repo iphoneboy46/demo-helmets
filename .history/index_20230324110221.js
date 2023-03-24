@@ -255,7 +255,7 @@ function handleScroll() {
       listLink.style.top = topCalc + "px";
       if(window.scrollY >= 5000){
         console.log("lon hon 5000");
-        listLink.style.top = "5300px";
+        listLink.style.top = "5200px";
       }
     } else if(screen.width > 1024) {
       listLink.style.top = "0%";

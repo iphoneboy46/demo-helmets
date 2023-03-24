@@ -253,14 +253,13 @@ function handleScroll() {
       let topCalc = Math.floor(window.scrollY - 500);
 
       listLink.style.top = topCalc + "px";
-      if(window.scrollY >= 5000){
-        console.log("lon hon 5000");
-        listLink.style.top = "5300px";
-      }
     } else if(screen.width > 1024) {
       listLink.style.top = "0%";
       listLink.style.marginTop = "0%";
-    } 
+    }else if(window.scrollY >= 5000){
+      console.log("lon hon 5000");
+      listLink.style.top = "5500px";
+    }
     
 
     console.log(window.scrollY);
