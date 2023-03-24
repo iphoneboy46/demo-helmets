@@ -258,7 +258,7 @@ function handleScroll() {
         listLink.style.top = "5300px";
       }
     } else if(screen.width > 1024) {
-      listLink.style.top = "2%";
+      listLink.style.top = "5%";
       listLink.style.marginTop = "0%";
     } 
     

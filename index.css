@@ -1389,7 +1389,7 @@ main .main {
 }
 main .main .main_links-link {
   position: absolute;
-  top: 0;
+  top: 5%;
   z-index: 10;
   right: 2%;
   transition: all 1s ease-out;
