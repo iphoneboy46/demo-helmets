@@ -424,6 +424,7 @@ a {
   align-items: start;
   opacity: 0;
   transition: all 0.5s ease-in-out;
+  overflow-y: scroll;
 }
 .menu_responsive ul {
   margin-top: 200px;
@@ -517,6 +518,9 @@ a {
 @media only screen and (max-width: 768px) {
   .menu_responsive {
     width: 100%;
+  }
+  .menu_responsive ul {
+    margin-top: 100px;
   }
   .menu_responsive ul li {
     margin-bottom: 20px;
@@ -1202,7 +1206,7 @@ main .main-slide .main_slider::before {
   position: absolute;
   width: 100%;
   height: 47.4537037037vw;
-  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 38%, rgba(0, 0, 0, 0) 50%, rgba(0, 97, 249, 0.4682247899) 100%);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 38%, rgba(0, 0, 0, 0) 50%, rgba(0, 95, 249, 0.21) 100%);
 }
 main .main-slide .main_slider .swiper {
   width: 100%;
@@ -2983,6 +2987,7 @@ main .main .main_news-input a:hover {
        object-fit: cover;
   }
   main .main .main_blog-container .main_blog-2-des {
+    background-color: white;
     width: 60%;
     margin-left: 20px;
     display: flex;
@@ -3042,6 +3047,7 @@ main .main .main_news-input a:hover {
        object-fit: cover;
   }
   main .main .main_blog-container .main_blog-3-des {
+    background-color: white;
     width: 60%;
     margin-left: 20px;
     display: flex;
@@ -3880,6 +3886,7 @@ main .main .main_news-input a:hover {
   main .main .main_blog-container .main_blog-1 {
     grid-area: h1;
     width: 100%;
+    background-color: white;
     position: relative;
     display: flex;
     flex-direction: column;
