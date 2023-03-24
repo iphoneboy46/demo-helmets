@@ -2250,7 +2250,7 @@ main .main .main_news-input input:focus ~ a {
   border: 1px solid black;
 }
 main .main .main_news-input a {
-  width: 20%;
+  padding: 10px 20px;
   border: 1px solid #cccccc;
   outline: none;
   background-color: transparent;
