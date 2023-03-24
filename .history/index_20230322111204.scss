@@ -1,0 +1,13 @@
+@import "variables";
+
+header{
+    width: 100%;
+    height: calc(110 / 1727 * 100vw);
+    background-color: $color-blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .header_logo{
+        
+    }
+}
