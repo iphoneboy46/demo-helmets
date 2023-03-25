@@ -1145,7 +1145,7 @@ header .header .header_language-con .header_search-block .arrow-up {
 @media screen and (max-width: 768px) {
   header .header {
     width: 100%;
-    height: 80px;
+    height: 50px;
     justify-content: space-between;
     padding: 0 20px;
     position: fixed;
@@ -1607,6 +1607,7 @@ main .main .main_product-best .main_product-best-list {
   overflow: hidden;
   cursor: pointer;
   margin: 0 auto;
+  padding: 10px;
 }
 main .main .main_product-best .main_product-best-list .item {
   padding: 10px;
@@ -1618,8 +1619,8 @@ main .main .main_product-best .main_product-best-list .item {
   flex-direction: column;
   transition: all 0.5s linear;
 }
-main .main .main_product-best .main_product-best-list .item:active {
-  background-color: rgba(0, 0, 0, 0.176);
+main .main .main_product-best .main_product-best-list .item:hover {
+  box-shadow: 10px 10px 10px rgba(32, 32, 32, 0.736);
 }
 main .main .main_product-best .main_product-best-list .item-img {
   width: 250px;
@@ -3225,7 +3226,7 @@ main .main .main_news-input a:hover {
 }
 @media screen and (max-width: 768px) {
   main .main-slide {
-    padding-top: 80px;
+    padding-top: 40px;
   }
   main .main-slide .main_slider {
     width: 100%;
@@ -4402,6 +4403,7 @@ footer .footer_container .footer_bottom ul li a {
 footer .footer_container .btn-top {
   width: 52px;
   height: 52px;
+  transform: rotate(180deg);
   margin: 50px auto 0 auto;
   text-align: center;
   transition: all 0.5s linear;
@@ -4417,6 +4419,7 @@ footer .footer_container .btn-top:hover {
   background: white;
   border-radius: 50%;
   box-shadow: 0 0 20px white;
+  transform: rotate(360deg);
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   footer {
