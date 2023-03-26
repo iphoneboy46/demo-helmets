@@ -1947,7 +1947,9 @@ main .main .main_blog-container {
   display: grid;
   width: 100%;
   gap: 30px;
-  grid-template-areas: "h1 h2 h2 h2" "h1 h3 h3 h3" "h1 h4 h4 h4";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "h1 h1 h2 h2" "h1 h1 h3 h3" "h1 h1 h4 h4";
 }
 main .main .main_blog-container .main_blog-1 {
   grid-area: h1;
@@ -1956,7 +1958,23 @@ main .main .main_blog-container .main_blog-1 {
 }
 main .main .main_blog-container .main_blog-1-img {
   width: 100%;
-  height: 90%;
+  height: 100%;
+}
+main .main .main_blog-container .main_blog-1-img:hover::before {
+  visibility: visible;
+  opacity: 1;
+}
+main .main .main_blog-container .main_blog-1-img:before {
+  transition: all 0.5s linear;
+  opacity: 0;
+  visibility: hidden;
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.213);
+  z-index: 2;
 }
 main .main .main_blog-container .main_blog-1-img img {
   width: 100%;
@@ -1965,6 +1983,7 @@ main .main .main_blog-container .main_blog-1-img img {
      object-fit: cover;
 }
 main .main .main_blog-container .main_blog-1-des {
+  z-index: 2;
   background-color: white;
   padding: 30px 50px;
   width: 90%;
@@ -2040,6 +2059,23 @@ main .main .main_blog-container .main_blog-2 {
 main .main .main_blog-container .main_blog-2-img {
   width: 40%;
   height: auto;
+  position: relative;
+}
+main .main .main_blog-container .main_blog-2-img:hover::before {
+  visibility: visible;
+  opacity: 1;
+}
+main .main .main_blog-container .main_blog-2-img:before {
+  transition: all 0.5s linear;
+  opacity: 0;
+  visibility: hidden;
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.213);
+  z-index: 2;
 }
 main .main .main_blog-container .main_blog-2-img img {
   width: 100%;
@@ -2099,6 +2135,23 @@ main .main .main_blog-container .main_blog-3 {
 main .main .main_blog-container .main_blog-3-img {
   width: 40%;
   height: auto;
+  position: relative;
+}
+main .main .main_blog-container .main_blog-3-img:hover::before {
+  visibility: visible;
+  opacity: 1;
+}
+main .main .main_blog-container .main_blog-3-img:before {
+  transition: all 0.5s linear;
+  opacity: 0;
+  visibility: hidden;
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.213);
+  z-index: 2;
 }
 main .main .main_blog-container .main_blog-3-img img {
   width: 100%;
@@ -2158,6 +2211,23 @@ main .main .main_blog-container .main_blog-4 {
 main .main .main_blog-container .main_blog-4-img {
   width: 40%;
   height: auto;
+  position: relative;
+}
+main .main .main_blog-container .main_blog-4-img:hover::before {
+  visibility: visible;
+  opacity: 1;
+}
+main .main .main_blog-container .main_blog-4-img:before {
+  transition: all 0.5s linear;
+  opacity: 0;
+  visibility: hidden;
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.213);
+  z-index: 2;
 }
 main .main .main_blog-container .main_blog-4-img img {
   width: 100%;
@@ -2889,6 +2959,8 @@ main .main .main_news-input a:hover {
     width: 90%;
     margin: 0 auto;
     gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "h1 h1 h2 h2" "h1 h1 h3 h3" "h1 h1 h4 h4";
   }
   main .main .main_blog-container .main_blog-1 {
@@ -3885,12 +3957,14 @@ main .main .main_news-input a:hover {
     width: 100%;
     margin: 0 auto;
     gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: "h1 h1 h2 h2" "h1 h1 h2 h2" "h3 h3 h4 h4" "h3 h3 h4 h4";
   }
   main .main .main_blog-container .main_blog-1 {
     grid-area: h1;
     width: 100%;
-    background-color: white;
+    background-color: #0F1A2C;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -3908,8 +3982,8 @@ main .main .main_news-input a:hover {
        object-fit: cover;
   }
   main .main .main_blog-container .main_blog-1-des {
-    background-color: white;
-    padding: 0;
+    background-color: #0F1A2C;
+    padding: 10px;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -3920,6 +3994,7 @@ main .main .main_news-input a:hover {
     flex-direction: column;
   }
   main .main .main_blog-container .main_blog-1-des .time {
+    color: #F3973D;
     display: flex;
     align-items: center;
     height: 15px;
@@ -3927,6 +4002,7 @@ main .main .main_news-input a:hover {
     font-weight: 400;
   }
   main .main .main_blog-container .main_blog-1-des .time p {
+    color: #F3973D;
     margin: 0;
     margin-left: 10px;
   }
@@ -3948,7 +4024,7 @@ main .main .main_news-input a:hover {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    color: black;
+    color: white;
     transition: all 0.5s linear;
   }
   main .main .main_blog-container .main_blog-1-des .content a:hover {
@@ -3977,7 +4053,7 @@ main .main .main_news-input a:hover {
   }
   main .main .main_blog-container .main_blog-2 {
     width: 100%;
-    background-color: white;
+    background-color: #0F1A2C;
     grid-area: h2;
     height: 100%;
     overflow: hidden;
@@ -4003,6 +4079,7 @@ main .main .main_news-input a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 10px;
   }
   main .main .main_blog-container .main_blog-2-des .time {
     width: 100%;
@@ -4010,6 +4087,7 @@ main .main .main_news-input a:hover {
     align-items: center;
   }
   main .main .main_blog-container .main_blog-2-des .time p {
+    color: #F3973D;
     font-weight: 400;
     margin-left: 5px;
     margin-bottom: 0;
@@ -4032,7 +4110,7 @@ main .main .main_news-input a:hover {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    color: black;
+    color: white;
     transition: all 0.5s linear;
   }
   main .main .main_blog-container .main_blog-2-des .content a:hover {
@@ -4040,7 +4118,7 @@ main .main .main_news-input a:hover {
   }
   main .main .main_blog-container .main_blog-3 {
     width: 100%;
-    background-color: white;
+    background-color: #0F1A2C;
     grid-area: h3;
     height: 100%;
     overflow: hidden;
@@ -4060,6 +4138,7 @@ main .main .main_news-input a:hover {
        object-fit: cover;
   }
   main .main .main_blog-container .main_blog-3-des {
+    padding: 10px;
     width: 100%;
     margin-left: 0px;
     display: flex;
@@ -4073,6 +4152,7 @@ main .main .main_news-input a:hover {
     align-items: center;
   }
   main .main .main_blog-container .main_blog-3-des .time p {
+    color: #F3973D;
     font-weight: 400;
     margin-left: 5px;
     margin-bottom: 0;
@@ -4095,7 +4175,7 @@ main .main .main_news-input a:hover {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    color: black;
+    color: white;
     transition: all 0.5s linear;
   }
   main .main .main_blog-container .main_blog-3-des .content a:hover {
@@ -4103,7 +4183,7 @@ main .main .main_news-input a:hover {
   }
   main .main .main_blog-container .main_blog-4 {
     width: 100%;
-    background-color: white;
+    background-color: #0F1A2C;
     grid-area: h4;
     flex-direction: column;
     height: 100%;
@@ -4124,6 +4204,7 @@ main .main .main_news-input a:hover {
   }
   main .main .main_blog-container .main_blog-4-des {
     width: 100%;
+    padding: 10px;
     margin-left: 0px;
     display: flex;
     justify-content: center;
@@ -4136,6 +4217,7 @@ main .main .main_news-input a:hover {
     align-items: center;
   }
   main .main .main_blog-container .main_blog-4-des .time p {
+    color: #F3973D;
     font-weight: 400;
     margin-left: 5px;
     margin-bottom: 0;
@@ -4158,7 +4240,7 @@ main .main .main_news-input a:hover {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    color: black;
+    color: white;
     transition: all 0.5s linear;
   }
   main .main .main_blog-container .main_blog-4-des .content a:hover {

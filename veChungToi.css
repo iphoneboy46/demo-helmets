@@ -3071,10 +3071,10 @@ main .main_container-certification .swiper-slide img {
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
-    background-size: 100%;
+    background-size: cover;
     background-color: #0F1A2C;
-    background-repeat: no-repeat;
-    min-height: 800px;
+    background-repeat: repeat-y;
+    min-height: 150vw;
     height: auto;
     position: relative;
     display: flex;
@@ -3128,16 +3128,17 @@ main .main_container-certification .swiper-slide img {
     transition: all 0.8s linear none;
   }
   main .main_container .slider-con-mobile .slider-con-mb .slider-item-mb .year {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     width: 20%;
     font-weight: 300;
     font-size: 15px;
-    line-height: 24px;
+    line-height: 20px;
     color: rgb(163, 162, 162);
     transition: all 0.5 linear;
     z-index: 1;
+    text-align: center;
   }
   main .main_container .slider-con-mobile .slider-con-mb .slider-item-mb .content {
     width: 100%;
@@ -3180,11 +3181,13 @@ main .main_container-certification .swiper-slide img {
   }
   main .main_container .slider-con-mobile .slider-con-mb .slider-item-mb:nth-child(4) {
     position: absolute;
-    top: 60%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   main .main_container .slider-con-mobile .slider-con-mb .slider-item-mb:nth-child(4) .title {
+    position: absolute;
+    top: 20%;
     visibility: visible;
     opacity: 1;
     transition: all 1s ease-in-out;
@@ -3196,6 +3199,7 @@ main .main_container-certification .swiper-slide img {
     visibility: visible;
   }
   main .main_container .slider-con-mobile .slider-con-mb .slider-item-mb:nth-child(4) .content {
+    margin-top: 300px;
     padding: 20px;
     visibility: visible;
     opacity: 1;
@@ -3205,7 +3209,6 @@ main .main_container-certification .swiper-slide img {
   main .main_container .slider-con-mobile .slider-con-mb .slider-item-mb:nth-child(4) .year {
     font-weight: 600;
     color: white;
-    padding: 130px 0;
     font-size: 20px;
     text-align: center;
   }
