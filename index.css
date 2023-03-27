@@ -528,6 +528,14 @@ a {
   .menu_responsive ul li a {
     font-size: 20px;
   }
+  .menu_responsive ul li a img {
+    width: 20px;
+    margin-right: 5px;
+  }
+  .menu_responsive ul li a i {
+    width: 20px;
+    margin-right: 5px;
+  }
   .menu_responsive ul li p {
     font-size: 20px;
   }
@@ -4434,8 +4442,8 @@ footer .footer_container .footer_top .footer_right-menu ul li a:hover {
   color: #F3973D;
 }
 footer .footer_container .footer_top .footer_right-map {
-  width: 100%;
-  height: 50%;
+  width: 90%;
+  height: 400px;
 }
 footer .footer_container .footer_top .footer_right-map iframe {
   width: 100%;
@@ -4691,7 +4699,7 @@ footer .footer_container .btn-top:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
   }
   footer .footer_container {
     display: flex;
@@ -4703,7 +4711,7 @@ footer .footer_container .btn-top:hover {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin-bottom: 120px;
+    margin-bottom: 60px;
   }
   footer .footer_container .footer_top .footer_left {
     width: 100%;
@@ -4713,7 +4721,7 @@ footer .footer_container .btn-top:hover {
     font-weight: 700;
     font-size: 25px;
     line-height: 29px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   footer .footer_container .footer_top .footer_left .footer_left-1 {
     list-style: none;
@@ -4768,7 +4776,7 @@ footer .footer_container .btn-top:hover {
     font-weight: 700;
     font-size: 25px;
     line-height: 29px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   footer .footer_container .footer_top .footer_right-menu {
     display: flex;
@@ -4797,7 +4805,7 @@ footer .footer_container .btn-top:hover {
   }
   footer .footer_container .footer_top .footer_right-map {
     width: 100%;
-    height: 50%;
+    height: 400px;
   }
   footer .footer_container .footer_top .footer_right-map iframe {
     width: 100%;
@@ -4810,19 +4818,19 @@ footer .footer_container .btn-top:hover {
     align-items: center;
   }
   footer .footer_container .footer_bottom .logo {
-    width: 80px;
-    height: 52px;
+    width: 60px;
+    height: 30px;
   }
   footer .footer_container .footer_bottom .logo img {
     width: 100%;
     height: 100%;
   }
   footer .footer_container .footer_bottom h1 {
+    display: none;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 10px;
     line-height: 16px;
     color: white;
-    display: none;
   }
   footer .footer_container .footer_bottom ul {
     margin-right: 0px;

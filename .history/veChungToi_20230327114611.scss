@@ -3148,7 +3148,6 @@ main {
                                 visibility: visible;
                                 opacity: 1;
                                 transition: all 1s ease-in-out;
-                                transition-delay: .5s;
                                 transform: scale(1);
                             }
                             span {
@@ -3157,13 +3156,11 @@ main {
                                 visibility: visible;
                             }
                             .content {
-                                text-align: center;
                                 margin-top: 300px;
                                 padding:20px; 
                                 visibility: visible;
                                 opacity: 1;
                                 transition: all 1s ease-in-out;
-                                transition-delay: .5s;
                                 transform: scale(1);
                             }
                             .year {
@@ -4054,12 +4051,11 @@ footer {
                 }
 
                 h1 {
-                  display: none;
                     font-weight: 400;
-                    font-size: 10px;
+                    font-size: 14px;
                     line-height: 16px;
                     color: white;
-                    
+                    display: none;
                 }
 
                 ul {
