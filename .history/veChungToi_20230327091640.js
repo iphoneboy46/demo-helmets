@@ -123,9 +123,9 @@ function handleScroll() {
       let topCalc = Math.floor(window.scrollY - 200);
 
       listLink.style.top = topCalc + "px";
-      if(window.scrollY >= 4600){
+      if(window.scrollY >= 4800){
         console.log("lon hon 4500");
-        listLink.style.top = "4500px";
+        listLink.style.top = "4600px";
       }
     } else if(screen.width > 1024) {
       listLink.style.top = "2%";

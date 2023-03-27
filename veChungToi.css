@@ -1846,7 +1846,7 @@ main .main_container .slider-con-mobile {
   display: none;
 }
 main .main_container-certification {
-  width: 1200px;
+  width: 50%;
   margin: 0 auto;
   padding: 50px 0;
 }
