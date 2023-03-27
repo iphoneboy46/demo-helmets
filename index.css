@@ -447,6 +447,9 @@ a {
   background-color: white;
   border-radius: 20px;
 }
+.menu_responsive ul li span {
+  color: white;
+}
 .menu_responsive ul li .active {
   color: #F3973D;
 }
