@@ -4520,7 +4520,7 @@ footer .footer_container .btn-top:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 50px;
+    padding: 100px 20px;
   }
   footer .footer_container {
     display: flex;
@@ -4675,6 +4675,7 @@ footer .footer_container .btn-top:hover {
   footer .footer_container .btn-top {
     width: 52px;
     height: 52px;
+    transform: rotate(0) !important;
     margin: 50px auto 0 auto;
     text-align: center;
     transition: all 0.5s linear;

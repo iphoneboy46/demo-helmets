@@ -8,7 +8,7 @@ function slider() {
     let itemSliders = document.querySelectorAll(".slider-item");
     let listItemSliders = document.querySelector(".slider-con");
     listItemSliders.appendChild(itemSliders[0]);
-    clearInterval(silderDesktop);
+    clearInterval(silderDesktop)
   };
 
   btnUp.onclick = () => {
