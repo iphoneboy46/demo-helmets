@@ -619,7 +619,6 @@ a {
 }
 
 header {
-    overflow: hidden;
     width: 100%;
     .header {
         .header_res-navbar {
@@ -942,7 +941,7 @@ header {
 main {
     width: 100%;
     padding-top: 105px;
-    overflow: hidden;
+
     .main-img {
         width: 100%;
         height: calc(528 / 1728 * 100vw);
@@ -1719,7 +1718,6 @@ main {
         }
     }
 
-    
     @media only screen and (min-width: 769px) and (max-width: 1024px) {
         width: 100%;
         padding-top: 70px;
@@ -2493,20 +2491,17 @@ main {
         }
     }
 
-   
-
     @media only screen and (max-width: 768px) {
         overflow: hidden;
         width: 100%;
         padding-top: 45px;
         .main-img {
             width: 100%;
-            height: auto;
-            min-height: 200px;
+            height: calc(528 / 1728 * 100vw);
             background: url(./image/grey-black-motorcycle-red-helmet\ 1.png);
             background-repeat: no-repeat;
-           
-            background-size: cover;
+            object-fit: cover;
+            background-size: 100%;
             position: relative;
 
             &::before {
@@ -2793,7 +2788,7 @@ main {
                     
 
                     .main_content-text {
-                        padding: 20px;
+                        padding: 30px;
                         width: 100%;
                         p {
                             font-weight: 400;
@@ -2811,7 +2806,7 @@ main {
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    padding:20px;
+                    padding:30px;
                     .main_content-text {
                         width: 100%;
                         padding: 0;
@@ -2865,7 +2860,7 @@ main {
                     flex-direction: column;
                     justify-content: center;
                     align-items: start;
-                    padding: 20px 20px 10px 20px;
+                    padding: 30px 30px 10px 30px;
                     .main_content-text {
                         width: 100%;
                         padding: 0px;
@@ -2885,7 +2880,7 @@ main {
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    padding: 0px 20px 20px 20px;
+                    padding: 0px 30px 30px 30px;
                     .main_content-text {
                         width: 100%;
                         padding: 0px;
@@ -2940,7 +2935,7 @@ main {
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    padding:20px 20px 10px 20px;
+                    padding:30px 30px 10px 30px;
                     .main_content-text {
                         width: 100%;
                         padding: 0px;
@@ -2960,7 +2955,7 @@ main {
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    padding: 0px 20px 20px 20px;
+                    padding: 0px 30px 30px 30px;
                     .main_content-text {
                         width: 100%;
                         padding: 0px;
@@ -4095,7 +4090,7 @@ footer {
             .btn-top {
                 width: 52px;
                 height: 52px;
-                transform: rotate(0);
+
                 margin: 50px auto 0 auto;
                 text-align: center;
                 transition: all 0.5s linear;

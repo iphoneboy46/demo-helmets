@@ -37,7 +37,6 @@ function sliderMobile(){
       let itemSliderMb = document.querySelectorAll(".slider-item-mb");
       let listItemSliderMb = document.querySelector(".slider-con-mb");
       listItemSliderMb.appendChild(itemSliderMb[0]);
-      clearInterval(sliderAuto)
     };
   
     btnPrev.onclick = () => {
@@ -45,7 +44,7 @@ function sliderMobile(){
       let listItemSliderMb = document.querySelector(".slider-con-mb");
       listItemSliderMb.prepend(itemSliderMb[itemSliderMb.length - 1]);
 
-      
+      clearInterval(sliderAuto)
 
     };
   

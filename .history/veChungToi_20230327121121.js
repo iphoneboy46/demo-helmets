@@ -37,21 +37,17 @@ function sliderMobile(){
       let itemSliderMb = document.querySelectorAll(".slider-item-mb");
       let listItemSliderMb = document.querySelector(".slider-con-mb");
       listItemSliderMb.appendChild(itemSliderMb[0]);
-      clearInterval(sliderAuto)
     };
   
     btnPrev.onclick = () => {
       let itemSliderMb = document.querySelectorAll(".slider-item-mb");
       let listItemSliderMb = document.querySelector(".slider-con-mb");
       listItemSliderMb.prepend(itemSliderMb[itemSliderMb.length - 1]);
-
-      
-
     };
   
   
   
-  let sliderAuto = setInterval(() => {
+    setInterval(() => {
       let itemSliderMb = document.querySelectorAll(".slider-item-mb");
       let listItemSliderMb = document.querySelector(".slider-con-mb");
       listItemSliderMb.appendChild(itemSliderMb[0]);
