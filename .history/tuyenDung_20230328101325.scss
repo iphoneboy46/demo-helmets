@@ -2437,8 +2437,8 @@ main {
                                     align-items: center;
                                     padding: 5px 0;
                                     img {
-                                        width: 16px;
-                                        height: 16px;
+                                        width: 20px;
+                                        height: 20px;
                                     }
 
                                     p {
@@ -2454,8 +2454,8 @@ main {
                                     a {
                                         color: black;
                                         font-weight: 700;
-                                        font-size: 14px;
-                                        line-height: 20px;
+                                        font-size: 16px;
+                                        line-height: 24px;
                                         transition: all 0.5s linear;
 
                                         &:hover {
@@ -2465,11 +2465,11 @@ main {
                                 }
 
                                 .des {
-                                    padding: 0 0 5px 0;
+                                    padding: 5px 0;
                                     p {
                                         font-weight: 400;
-                                        font-size: 12px;
-                                        line-height: 16px;
+                                        font-size: 14px;
+                                        line-height: 18px;
                                     }
                                 }
                                 a {
@@ -2693,7 +2693,7 @@ main {
                     width: 100%;
                     h1 {
                         text-align: center;
-                        padding: 20px 10px 20px 10px;
+                        padding: 20px 0px 20px 0px;
                         font-style: italic;
                         font-weight: 700;
                         font-size: 21px;

@@ -1596,7 +1596,7 @@ main .main .main_container-right .img-hinh-2 img {
   }
   main .main .main_container-left-content-2 .content-item .item-img {
     width: 220px;
-    height: 120px;
+    height: 100%;
     position: relative;
   }
   main .main .main_container-left-content-2 .content-item .item-img:hover::before {
@@ -1947,7 +1947,7 @@ main .main .main_container-right .img-hinh-2 img {
   }
   main .main .main_container-left-content-2 .content-item .item-img {
     width: 220px;
-    height: 120px;
+    height: 140px;
     position: relative;
   }
   main .main .main_container-left-content-2 .content-item .item-img:hover::before {
@@ -2177,7 +2177,7 @@ main .main .main_container-right .img-hinh-2 img {
     color: #F3973D;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 401px) and (max-width: 768px) {
   main {
     padding-bottom: 50px;
     background-color: #efefef;
@@ -2332,7 +2332,7 @@ main .main .main_container-right .img-hinh-2 img {
   main .main .main_container-left-content-2 .content-item .item-content {
     width: 70%;
     background-color: white;
-    padding: 0 0px 0 20px;
+    padding: 0 20px 0 20px;
   }
   main .main .main_container-left-content-2 .content-item .item-content .time {
     display: flex;
@@ -2340,8 +2340,8 @@ main .main .main_container-right .img-hinh-2 img {
     padding: 5px 0;
   }
   main .main .main_container-left-content-2 .content-item .item-content .time img {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
   }
   main .main .main_container-left-content-2 .content-item .item-content .time p {
     margin-left: 5px;
@@ -2355,20 +2355,20 @@ main .main .main_container-right .img-hinh-2 img {
   main .main .main_container-left-content-2 .content-item .item-content .title a {
     color: black;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
     transition: all 0.5s linear;
   }
   main .main .main_container-left-content-2 .content-item .item-content .title a:hover {
     color: #F3973D;
   }
   main .main .main_container-left-content-2 .content-item .item-content .des {
-    padding: 5px 0;
+    padding: 0 0 5px 0;
   }
   main .main .main_container-left-content-2 .content-item .item-content .des p {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: 16px;
   }
   main .main .main_container-left-content-2 .content-item .item-content a {
     text-decoration: none;
@@ -2536,6 +2536,380 @@ main .main .main_container-right .img-hinh-2 img {
     white-space: nowrap;
     color: white;
     margin-right: 10px;
+  }
+  main .main-img-text ul li a {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 20px;
+    color: white;
+    transition: all 0.5s linear;
+  }
+  main .main-img-text ul li a:hover {
+    color: #F3973D;
+  }
+}
+@media only screen and (max-width: 400px) {
+  main {
+    padding-bottom: 50px;
+    background-color: #efefef;
+  }
+  main .main .main_links-link {
+    display: none;
+  }
+  main .main .main_container {
+    padding: 0px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  main .main .main_container-left {
+    width: 100%;
+  }
+  main .main .main_container-left h1 {
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: #F3973D;
+  }
+  main .main .main_container-left-content .content-img {
+    width: 100%;
+    min-width: auto;
+    height: 300px;
+  }
+  main .main .main_container-left-content .content-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .main .main_container-left-content .content-text {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+  main .main .main_container-left-content .content-text .context-con-1 {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+  }
+  main .main .main_container-left-content .content-text .context-con-1 .context-1 h2 {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  main .main .main_container-left-content .content-text .context-con-1 .context-1 p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  main .main .main_container-left-content .content-text .context-con-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  main .main .main_container-left-content .content-text .context-con-2 .context-2 {
+    padding: 10px 0px 10px 0px;
+  }
+  main .main .main_container-left-content .content-text .context-con-2 .context-2 h2 {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  main .main .main_container-left-content .content-text .context-con-2 .context-2 p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  main .main .main_container-left-content .content-text .context-con-2 .context-3 {
+    padding: 0px 0px 0px 0px;
+  }
+  main .main .main_container-left-content .content-text .context-con-2 .context-3 h2 {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  main .main .main_container-left-content .content-text .context-con-2 .context-3 p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  main .main .main_container-left .btn-UngTuyen {
+    padding: 20px 10px;
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+  main .main .main_container-left .btn-UngTuyen a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    font-style: italic;
+    padding: 10px 20px;
+    color: black;
+    background-color: #F3973D;
+    border-radius: 30px;
+    text-align: center;
+    transition: all 0.5s linear;
+  }
+  main .main .main_container-left .btn-UngTuyen a:hover {
+    color: white;
+  }
+  main .main .main_container-left-content-2 {
+    padding: 10px;
+  }
+  main .main .main_container-left-content-2 .content-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 20px;
+  }
+  main .main .main_container-left-content-2 .content-item:hover {
+    box-shadow: 0 0 10px black;
+  }
+  main .main .main_container-left-content-2 .content-item .item-img {
+    width: 30%;
+    min-height: 120px;
+    position: relative;
+  }
+  main .main .main_container-left-content-2 .content-item .item-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .main .main_container-left-content-2 .content-item .item-img:hover::before {
+    visibility: visible;
+    transform: scale(1);
+  }
+  main .main .main_container-left-content-2 .content-item .item-img::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.399);
+    inset: 0;
+    position: absolute;
+    transform: scale(0);
+    visibility: hidden;
+    transition: all 0.5s linear;
+  }
+  main .main .main_container-left-content-2 .content-item .item-content {
+    width: 70%;
+    background-color: white;
+    padding: 10px;
+  }
+  main .main .main_container-left-content-2 .content-item .item-content .time {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+  }
+  main .main .main_container-left-content-2 .content-item .item-content .time img {
+    width: 15px;
+    height: 15px;
+  }
+  main .main .main_container-left-content-2 .content-item .item-content .time p {
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #242424;
+  }
+  main .main .main_container-left-content-2 .content-item .item-content .title {
+    padding: 0px 0px 5px 0;
+  }
+  main .main .main_container-left-content-2 .content-item .item-content .title a {
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    transition: all 0.5s linear;
+  }
+  main .main .main_container-left-content-2 .content-item .item-content .title a:hover {
+    color: #F3973D;
+  }
+  main .main .main_container-left-content-2 .content-item .item-content .des {
+    padding: 0 0 5px 0;
+  }
+  main .main .main_container-left-content-2 .content-item .item-content .des p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  main .main .main_container-left-content-2 .content-item .item-content a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px;
+    color: #F3973D;
+    transition: all 0.5s linear;
+  }
+  main .main .main_container-left-content-2 .content-item .item-content a:hover {
+    color: black;
+  }
+  main .main .main_container-right {
+    margin-left: 0px;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+  }
+  main .main .main_container-right h1 {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    color: #F3973D;
+  }
+  main .main .main_container-right ul {
+    display: flex;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  }
+  main .main .main_container-right ul li {
+    scroll-snap-align: center;
+    width: 100%;
+    transition: all 0.5s linear;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    background-color: #eff5f5;
+  }
+  main .main .main_container-right ul li:hover {
+    box-shadow: 0px 0px 10px rgb(167, 164, 164);
+  }
+  main .main .main_container-right ul li .san-pham {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  main .main .main_container-right ul li .san-pham .img-ban-chay {
+    width: 93px;
+    height: 93px;
+    position: relative;
+  }
+  main .main .main_container-right ul li .san-pham .img-ban-chay:hover::before {
+    visibility: visible;
+    transform: scale(1);
+  }
+  main .main .main_container-right ul li .san-pham .img-ban-chay::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.399);
+    inset: 0;
+    position: absolute;
+    transform: scale(0);
+    visibility: hidden;
+    transition: all 0.5s linear;
+  }
+  main .main .main_container-right ul li .san-pham .img-ban-chay img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .main .main_container-right ul li .san-pham .title {
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  main .main .main_container-right ul li .san-pham .title a {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 20px;
+    transition: all 0.5s linear;
+  }
+  main .main .main_container-right ul li .san-pham .title a:hover {
+    color: #F3973D;
+  }
+  main .main .main_container-right ul li .san-pham .title p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    color: #F3973D;
+  }
+  main .main .main_container-right .img-hinh-1 {
+    width: 100%;
+    height: 300px;
+    display: none;
+    margin-bottom: 30px;
+  }
+  main .main .main_container-right .img-hinh-1 img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .main .main_container-right .img-hinh-2 {
+    width: 100%;
+    height: 300px;
+    display: none;
+  }
+  main .main .main_container-right .img-hinh-2 img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main .main-img {
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+    background: url(./image/close-up-man-holding-protection-helmet\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  main .main-img::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9164040616) 40%, rgba(244, 244, 244, 0) 63%, rgba(0, 0, 0, 0) 100%);
+  }
+  main .main-img-text {
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  main .main-img-text .color-yellow {
+    color: #F3973D;
+  }
+  main .main-img-text h1 {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    color: white;
+  }
+  main .main-img-text ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  main .main-img-text ul li {
+    white-space: nowrap;
+    color: white;
+    margin-right: 5px;
   }
   main .main-img-text ul li a {
     font-style: italic;

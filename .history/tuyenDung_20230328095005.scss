@@ -2430,15 +2430,15 @@ main {
                             .item-content {
                                 width: 70%;
                                 background-color: white;
-                                padding: 0 20px 0 20px;
+                                padding: 0 0px 0 20px;
 
                                 .time {
                                     display: flex;
                                     align-items: center;
                                     padding: 5px 0;
                                     img {
-                                        width: 16px;
-                                        height: 16px;
+                                        width: 20px;
+                                        height: 20px;
                                     }
 
                                     p {
@@ -2454,8 +2454,8 @@ main {
                                     a {
                                         color: black;
                                         font-weight: 700;
-                                        font-size: 14px;
-                                        line-height: 20px;
+                                        font-size: 16px;
+                                        line-height: 24px;
                                         transition: all 0.5s linear;
 
                                         &:hover {
@@ -2465,11 +2465,11 @@ main {
                                 }
 
                                 .des {
-                                    padding: 0 0 5px 0;
+                                    padding: 5px 0;
                                     p {
                                         font-weight: 400;
-                                        font-size: 12px;
-                                        line-height: 16px;
+                                        font-size: 14px;
+                                        line-height: 18px;
                                     }
                                 }
                                 a {
@@ -2693,7 +2693,7 @@ main {
                     width: 100%;
                     h1 {
                         text-align: center;
-                        padding: 20px 10px 20px 10px;
+                        padding: 20px 0px 20px 0px;
                         font-style: italic;
                         font-weight: 700;
                         font-size: 21px;
@@ -2705,7 +2705,7 @@ main {
                         .content-img {
                             width: 100%;
                             min-width: auto;
-                            height: 300px;
+                            height: 400px;
 
                             img {
                                 width: 100%;
@@ -2809,8 +2809,8 @@ main {
                             }
                             .item-img {
                                 width: 30%;
-                                min-height: 120px;
-                                
+                                min-height: 180px;
+                               
                                 position: relative;
 
                                 img {
@@ -2877,11 +2877,11 @@ main {
                                 }
 
                                 .des {
-                                    padding: 0 0 5px 0;
+                                    padding: 5px 0;
                                     p {
                                         font-weight: 400;
-                                        font-size: 12px;
-                                        line-height: 14px;
+                                        font-size: 14px;
+                                        line-height: 18px;
                                     }
                                 }
                                 a {
@@ -3020,7 +3020,6 @@ main {
             }
         }
         .main-img {
-            
             width: 100%;
             min-height: 300px;
             height: auto;
@@ -3029,8 +3028,7 @@ main {
 
             background-size: cover;
             position: relative;
-            display: flex;
-            align-items: center;
+
             &::before {
                 content: "";
                 width: 100%;
@@ -3046,11 +3044,11 @@ main {
             }
 
             &-text {
-                width: 60%;
-                margin: 0 auto;
-                padding: 10px;
-                
-              
+                position: absolute;
+                left: 50%;
+                top: 55%;
+                transform: translate(-50%, -50%);
+
                 .color-yellow {
                     color: $color-yellow;
                 }
@@ -3065,12 +3063,11 @@ main {
                 ul {
                     display: flex;
                     align-items: center;
-                    flex-wrap: wrap;
                     margin-top: 10px;
                     li {
                         white-space: nowrap;
                         color: white;
-                        margin-right: 5px;
+                        margin-right: 10px;
                         a {
                             font-style: italic;
                             font-weight: 700;
